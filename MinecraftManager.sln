@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftManager.Cli", "src\MinecraftManager.Cli\MinecraftManager.Cli.csproj", "{4EA3ECD6-E091-4999-AED3-A31844F3F66C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8CE9E81-5C9D-4D46-B93D-4F4E740073CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{61B9904E-3480-474D-A389-19B1595553DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftManager.Cli.Test", "tests\MinecraftManager.Cli.Test\MinecraftManager.Cli.Test.csproj", "{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftManager.Core", "src\MinecraftManager.Core\MinecraftManager.Core.csproj", "{5379FC64-D742-4C6E-8219-124187460187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftManager.Core.Test", "tests\MinecraftManager.Core.Test\MinecraftManager.Core.Test.csproj", "{E69A3F79-0E97-4989-8202-1CD973EFFC80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA3ECD6-E091-4999-AED3-A31844F3F66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA3ECD6-E091-4999-AED3-A31844F3F66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA3ECD6-E091-4999-AED3-A31844F3F66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA3ECD6-E091-4999-AED3-A31844F3F66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5379FC64-D742-4C6E-8219-124187460187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5379FC64-D742-4C6E-8219-124187460187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5379FC64-D742-4C6E-8219-124187460187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5379FC64-D742-4C6E-8219-124187460187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69A3F79-0E97-4989-8202-1CD973EFFC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69A3F79-0E97-4989-8202-1CD973EFFC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69A3F79-0E97-4989-8202-1CD973EFFC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69A3F79-0E97-4989-8202-1CD973EFFC80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EA3ECD6-E091-4999-AED3-A31844F3F66C} = {C8CE9E81-5C9D-4D46-B93D-4F4E740073CC}
+		{E5CB79A1-2AA0-4360-9B89-DFC0549FD5C1} = {61B9904E-3480-474D-A389-19B1595553DE}
+		{5379FC64-D742-4C6E-8219-124187460187} = {C8CE9E81-5C9D-4D46-B93D-4F4E740073CC}
+		{E69A3F79-0E97-4989-8202-1CD973EFFC80} = {61B9904E-3480-474D-A389-19B1595553DE}
+	EndGlobalSection
+EndGlobal
